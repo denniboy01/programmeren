@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "det:tutorial_multi_ore" }
+    }
+}

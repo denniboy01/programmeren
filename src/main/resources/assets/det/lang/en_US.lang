@@ -1,0 +1,24 @@
+item.copper_ingot.name=Copper Ingot
+item.tutorial_item.name=Tutorial Item 
+item.silicon.name=Silicon
+item.steel_ingot.name=Steel Ingot
+item.aluminum.name=Aluminum
+
+item.wooden_plate.name=Wooden Plate
+item.iron_plate.name=Iron Plate
+item.diamond_plate.name=Diamond Plate
+item.copper_plate.name=Copper Plate
+item.silicon_plate.name=Silicon Plate
+item.aluminum_plate.name=Aluminum Plate
+item.steel_plate.name=Steel Plate
+
+tile.copper_block.name=Copper Block
+tile.tutorial_block.name=Tutorial Block
+tile.copper_ore.name=Copper Ore
+tile.tutorial_multi_ore.name=Tutorial Multi Ore
+tile.silicium_block.name=Silicium Block
+tile.silicium_ore.name=Silicium Ore
+tile.aluminum_ore.name=Aluminum Ore
+tile.aluminum_block.name=Aluminum Block
+
+itemGroup.energyTech=Energy Tech
