@@ -21,8 +21,9 @@ public class TutorialWorldGen implements IWorldGenerator {
 		case 0: //Overworld
 			
 			this.runGenerator(this.gen_copper_ore, world, rnd, chunk_X, chunk_Z, 20, 0, 64); //20=%, 0=minHeight, 64=maxHeight
-			this.runGenerator(this.gen_silicium_ore, world, rnd, chunk_X, chunk_Z, 80, 0, 64);
+			this.runGenerator(this.gen_silicon_ore, world, rnd, chunk_X, chunk_Z, 80, 0, 64);
 			this.runGenerator(this.gen_aluminum_ore, world, rnd, chunk_X, chunk_Z, 80, 0, 64);
+			this.runGenerator(this.gen_lithium_ore, world, rnd, chunk_X, chunk_Z, 20, 0, 64);
 			
 			break;
 		
@@ -38,13 +39,15 @@ public class TutorialWorldGen implements IWorldGenerator {
 	}
 	
 	private WorldGenerator gen_copper_ore;
-	private WorldGenerator gen_silicium_ore;
+	private WorldGenerator gen_silicon_ore;
 	private WorldGenerator gen_aluminum_ore;
+	private WorldGenerator gen_lithium_ore;
 	
 	public TutorialWorldGen() {
 		this.gen_copper_ore = new WorldGenMinable(ModBlocks.copperOre.getDefaultState(), 10); //copper ore, max vein = 10
-		this.gen_silicium_ore = new WorldGenMinable(ModBlocks.siliciumOre.getDefaultState(), 10);
+		this.gen_silicon_ore = new WorldGenMinable(ModBlocks.siliconOre.getDefaultState(), 10);
 		this.gen_aluminum_ore = new WorldGenMinable(ModBlocks.aluminumOre.getDefaultState(), 10);
+		this.gen_lithium_ore = new WorldGenMinable(ModBlocks.lithiumOre.getDefaultState(), 10);
 	}
 
 	private void runGenerator(WorldGenerator generator, World world, Random rand, int chunk_X, int chunk_Z, int chancesToSpawn, int minHeight, int maxHeight) {

@@ -3,6 +3,9 @@ item.tutorial_item.name=Tutorial Item
 item.silicon.name=Silicon
 item.steel_ingot.name=Steel Ingot
 item.aluminum.name=Aluminum
+item.lithium_ingot.name=Lithium Ingot
+
+item.hammer.name=Hammer
 
 item.wooden_plate.name=Wooden Plate
 item.iron_plate.name=Iron Plate
@@ -12,13 +15,21 @@ item.silicon_plate.name=Silicon Plate
 item.aluminum_plate.name=Aluminum Plate
 item.steel_plate.name=Steel Plate
 
+item.iron_gear.name=Iron Gear
+item.steel_gear.name=Steel Gear
+item.diamond_gear.name=Diamond Gear
+
 tile.copper_block.name=Copper Block
 tile.tutorial_block.name=Tutorial Block
+tile.silicon_block.name=Silicon Block
+tile.aluminum_block.name=Aluminum Block
+tile.steel_block.name=Steel Block
+tile.lithium_block.name=Lithium Block
+
+tile.silicon_ore.name=Silicon Ore
+tile.aluminum_ore.name=Aluminum Ore
 tile.copper_ore.name=Copper Ore
 tile.tutorial_multi_ore.name=Tutorial Multi Ore
-tile.silicium_block.name=Silicium Block
-tile.silicium_ore.name=Silicium Ore
-tile.aluminum_ore.name=Aluminum Ore
-tile.aluminum_block.name=Aluminum Block
+tile.lithium_ore.name=Lithium Ore
 
 itemGroup.energyTech=Energy Tech

@@ -12,6 +12,7 @@ public final class ItemRenderRegister {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.silicon, 0, new ModelResourceLocation("det:silicon", "inventory"));
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.aluminum, 0, new ModelResourceLocation("det:aluminum", "inventory"));
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.steelIngot, 0, new ModelResourceLocation("det:steel_ingot", "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.lithiumIngot, 0, new ModelResourceLocation("det:lithium_ingot", "inventory"));
 		
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.woodenPlate, 0, new ModelResourceLocation("det:wooden_plate", "inventory"));
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.ironPlate, 0, new ModelResourceLocation("det:iron_plate", "inventory"));
@@ -20,6 +21,12 @@ public final class ItemRenderRegister {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.aluminumPlate, 0, new ModelResourceLocation("det:aluminum_plate", "inventory"));
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.siliconPlate, 0, new ModelResourceLocation("det:silicon_plate", "inventory"));
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.steelPlate, 0, new ModelResourceLocation("det:steel_plate", "inventory"));
+		
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.ironGear, 0, new ModelResourceLocation("det:iron_gear", "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.steelGear, 0, new ModelResourceLocation("det:steel_gear", "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.diamondGear, 0, new ModelResourceLocation("det:diamond_gear", "inventory"));
+		
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ModItems.hammer, 0, new ModelResourceLocation("det:hammer", "inventory"));
 	}
 }
 	
