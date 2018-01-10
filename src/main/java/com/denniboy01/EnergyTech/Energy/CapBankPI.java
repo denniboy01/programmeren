@@ -1,4 +1,4 @@
-/*package com.denniboy01.EnergyTech.Energy;
+package com.denniboy01.EnergyTech.energy;
 
 public class CapBankPI extends EnergyReceiverPI {
 	
@@ -17,4 +17,3 @@ public class CapBankPI extends EnergyReceiverPI {
 	}
 
 }
-*/

@@ -1,4 +1,7 @@
-package com.denniboy01.EnergyTech.Energy;
+package com.denniboy01.EnergyTech.energy;
+
+import com.denniboy01.EnergyTech.energy.interfaces.IEnergyReceiver;
+import com.denniboy01.EnergyTech.energy.interfaces.IPowerInterface;
 
 import net.minecraftforge.common.util.ForgeDirection;
 

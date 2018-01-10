@@ -1,4 +1,4 @@
-package com.denniboy01.EnergyTech.Energy;
+package com.denniboy01.EnergyTech.energy.interfaces;
 
 public interface ICapacitor {
 

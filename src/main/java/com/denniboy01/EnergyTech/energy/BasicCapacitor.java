@@ -1,19 +1,21 @@
-package com.denniboy01.EnergyTech.Energy;
+package com.denniboy01.EnergyTech.energy;
 
-public class Energy implements ICapacitor {
+import com.denniboy01.EnergyTech.energy.interfaces.ICapacitor;
+
+public class BasicCapacitor implements ICapacitor {
 	
 	private int maxEnergyReceived = 40;
 	private int maxEnergyStored = 1000000;
 	private int maxEnergyExtracted = 20;
 	
-	public Energy() {
+	public BasicCapacitor() {
 	}
 	
-	public Energy(int maxEnergyIO, int maxEnergyStored) {
+	public BasicCapacitor(int maxEnergyIO, int maxEnergyStored) {
 		this(maxEnergyIO, maxEnergyStored, maxEnergyIO);
 	}
 	
-	public Energy(int maxEnergyIn, int maxEnergyStored, int maxEnergyOut) {
+	public BasicCapacitor(int maxEnergyIn, int maxEnergyStored, int maxEnergyOut) {
 		configure(maxEnergyIn, maxEnergyStored, maxEnergyOut);
 	}
 	
