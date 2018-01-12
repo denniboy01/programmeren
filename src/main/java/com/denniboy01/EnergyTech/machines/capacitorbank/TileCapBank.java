@@ -1,4 +1,4 @@
-package crazypants.enderio.machine.capbank;
+package com.denniboy01.EnergyTech.machines.capacitorbank;
 
 import java.util.ArrayList;
 import java.util.EnumMap;
@@ -13,14 +13,19 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.AxisAlignedBB;
+//import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import com.denniboy01.energytech.energy.interfaces.PowerHandlerUtil;
+import com.denniboy01.EnergyTech.TileEntityEio;
+import com.denniboy01.EnergyTech.energy.interfaces.IInternalPowerReceiver;
+import com.denniboy01.EnergyTech.energy.interfaces.IIoConfigurable;
+import com.denniboy01.EnergyTech.energy.interfaces.IPowerStorage;
+import com.denniboy01.EnergyTech.machines.IoMode;
+import com.denniboy01.EnergyTech.energy.PowerHandlerUtil;
 
 public class TileCapBank extends TileEntityEio implements IInternalPowerReceiver, IInventory, IIoConfigurable, IPowerStorage {
 
@@ -33,8 +38,8 @@ public class TileCapBank extends TileEntityEio implements IInternalPowerReceiver
   private int maxInput = -1;
   private int maxOutput = -1;
 
-  private RedstoneControlMode inputControlMode = RedstoneControlMode.IGNORE;
-  private RedstoneControlMode outputControlMode = RedstoneControlMode.IGNORE;
+  //private RedstoneControlMode inputControlMode = RedstoneControlMode.IGNORE;
+  //private RedstoneControlMode outputControlMode = RedstoneControlMode.IGNORE;
 
   private boolean redstoneStateDirty = true;
   private boolean isRecievingRedstoneSignal;
@@ -136,7 +141,7 @@ public class TileCapBank extends TileEntityEio implements IInternalPowerReceiver
   }
 
   public void onBreakBlock() {
-    //If we are holding the networks inventory when we care broken, tranfer it to another member of the network
+    //If we are holding the networks inventory when we care broken, transfer it to another member of the network
     moveInventoryToNetwork();
   }
 

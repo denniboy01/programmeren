@@ -14,6 +14,8 @@ public class Main {
     public static final String MODID = "det";
     public static final String MODNAME = "Energy Tech";
     public static final String VERSION = "1.0.0";
+    
+    public static final Lang lang = new Lang("energytech");
 
     @Instance
     public static Main instance = new Main();

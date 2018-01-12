@@ -1,7 +1,9 @@
 package com.denniboy01.EnergyTech.energy;
 
 import com.denniboy01.EnergyTech.energy.interfaces.IEnergyProvider;
+import com.denniboy01.EnergyTech.energy.interfaces.IInternalPoweredTile;
 import com.denniboy01.EnergyTech.energy.interfaces.IPowerInterface;
+import com.denniboy01.EnergyTech.machines.capacitorbank.TileCapBank;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
